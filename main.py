@@ -182,12 +182,11 @@ async def start(client, message):
                             reply_markup=buttons)
         
     else:
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/metavoidsupport"),
-                    InlineKeyboardButton("Channel", url="https://t.me/metavoid"),
-                    InlineKeyboardButton("Repo", url="https://github.com/metavoidteam/kukichatbot")
-                    ]]
+        buttons = [[InlineKeyboardButton("Support", url="https://t.me/Simply_sweetheart04"),
+                    InlineKeyboardButton("Channel", url="https://t.me/unwanted_Infundibulum"),
+                    InlineKeyboardButton("Repo", url="Khikhikhi 🤭 nhi milega ")
         Photo = "https://telegra.ph/file/b04509cc8486f23690bba.jpg"
-        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @MetaVoid", reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @Welcome to Gboard clipboard, any text you copy will be saved here.powered by @Simply_sweetheart0_016, reply_markup=InlineKeyboardMarkup(buttons))
 
 
 
