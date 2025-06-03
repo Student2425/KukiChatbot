@@ -6,9 +6,9 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
+API_ID = os.environ.get("24311411", None) 
+API_HASH = os.environ.get("886b01d1d7beb0d1609274f0ff381271", None) 
+BOT_TOKEN = os.environ.get("7369123789:AAEh2AmhtOUncqAeSwpqMcNh8GyJoqaKX6Q", None) 
 KUKI_API = os.environ.get("KUKI_API", None) 
 ERROR_LOG = os.environ.get("ERROR_LOG", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
